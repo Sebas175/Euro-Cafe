@@ -1,1 +1,2 @@
 /* Aqui solo van las importaciones de css que se necesiten, no colocar css global para no hacer desorden */
+@import "header/sombra.css";
