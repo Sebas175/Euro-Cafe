@@ -1,2 +1,7 @@
 /* Aqui solo van las importaciones de css que se necesiten, no colocar css global para no hacer desorden */
+/*@import "header/estructura.css";
+@import "header/diseño.css";
 @import "header/sombra.css";
+*/
+@import "header/design.css";
+@import "content/menu-index.css";

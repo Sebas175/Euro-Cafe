@@ -1,0 +1,32 @@
+.navbar{
+    background-color: rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+.icon-hamburger{
+    background-color: #FFF !important;
+    color: #FFF !important;
+}
+.nav-link{
+    color: #FFF !important;
+}
+
+.fondo{
+    height: 550px;
+    position: absolute;
+    top: 0;
+    margin: 0px;
+    padding: 0px 0px;
+}
+.fondo img{
+    width: 100%;
+    height: 550px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: #FFF;
+    background-color: #000;
+}
