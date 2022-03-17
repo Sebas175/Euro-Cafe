@@ -2,6 +2,10 @@
 .navbar{
     background-color: rgba(0,0,0,0.2);
     z-index: 1000;
+    position: fixed;
+    width: 100vw;
+    padding-right: 20px;
+    transition: .2s linear;
 }
 .icon-hamburger{
     background-color: #FFF !important;

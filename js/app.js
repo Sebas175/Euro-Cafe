@@ -1,6 +1,13 @@
 'user strict'
 
-//Nota: Aqui solo van importaciones de codigo, no colocar codigo global aqui para no hacer desorden.
-import saludo from "./mostar_paginas.js";
+const menu = document.querySelector(".navbar");
 
-saludo();
+window.onscroll = () => {
+
+    if(window.scrollY <= 200){
+            menu.style.backgroundColor = "rgba(0,0,0,0.2)";
+    }else{
+        menu.style.backgroundColor = "rgb(0,0,0)";
+    }
+
+}
