@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
 .navbar{
     background-color: rgba(0,0,0,0.2);
     z-index: 1000;
@@ -12,14 +13,22 @@
 
 .fondo{
     height: 550px;
-    position: absolute;
-    top: 0;
     margin: 0px;
     padding: 0px 0px;
 }
 .fondo img{
     width: 100%;
     height: 550px;
+}
+
+.frase{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    z-index: 1000;
+    color: #000;
+    font-size: 40px;
+    font-family: 'Praise', cursive;
 }
 
 .footer{
