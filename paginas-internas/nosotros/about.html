@@ -7,16 +7,17 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2681da6af9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/content/generalidades.css">
+    <link rel="icon" href="/img/logo.png">
     <title>Euro Café</title>
 </head>
 <body>
-  <!--Inicio del Menú-->
+     <!--Inicio del Menú-->
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
-        <img src="img/logo.png" alt="" width="75" height="55">
+        <img src="/img/logo.png" alt="" width="75" height="55">
       </a>
       <button class="navbar-toggler icon-hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/paginas-internas/nosotros/about.html">Quienes Somos</a>
@@ -51,56 +52,47 @@
   </nav>
   <!--Fin del Menú-->
 
-  <!-- Imagen de fondo -->
-  <div class="container-fluid fondo">
-    
-    <div class="frase">
-      <p>¿Día de lluvia?<br>Tarde de café y amigos</p>
+  <!-- Inicio de la Sección Generalidades -->
+  <section class="generalidad mt-4">
+    <div class="container">
+        <h2>Quienes Somos</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-between">
+            <div class="col">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+                <img src="../img/mision.jpg" class="card-img-top" alt="3 personas apuntado a una meta en común">
+                <div class="card-body">
+                <h5 class="card-title">Misión</h5>
+                <p class="card-text">Brindar a nuestros clientes alimentos y bebidas de calidad, el mejor servicio y un ambiente cómodo que inspire tranquilidad y aporte al desarrollo personal de cada ser humano.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+                <img src="../img/vision.jpg" class="card-img-top" alt="Una persona observando el punto al que quiere llegar">
+                <div class="card-body">
+                <h5 class="card-title">Visión</h5>
+                <p class="card-text">Situarse como la mejor cafetería del país, reconocida por ofrecer productos innovadores y de calidad y continuar expandiéndose sin perder de vista el compromiso con los clientes brindando experiencias enriquecedoras y agradables.</p>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+            <div class="card shadow p-3 mb-5 bg-body rounded">
+                <img src="../img/estructura.jpg" class="card-img-top" alt="2 personas armando un rompecabeza">
+                <div class="card-body">
+                <h5 class="card-title">Estructura Organizacional</h5>
+                <p class="card-text">Gerencia General <br>Auditoría Externa <br>Departamento Financiero <br>Departamento de Mercadeo <br>Departamento de Producción <br>Departamento de Recursos Humanos</p>
+                </div>
+            </div>
+            </div>
+        </div>
     </div>
-  <!-- Fin de Imagen de fondo -->
-
-
-  </div>
-    <!-- Inicio Sección de Menú -->
-    <section class="Menu">
-      <h2>Menú</h2>
-  
-      <div class="row row-cols-1 row-cols-sm-3 g-4">
-        <div class="col">
-          <div class="card shadow p-3 mb-5 bg-body rounded">
-            <img src="https://picsum.photos/200?random=1" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Bebidas</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow p-3 mb-5 bg-body rounded">
-            <img src="https://picsum.photos/200?random=2" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Panes</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow p-3 mb-5 bg-body rounded">
-            <img src="https://picsum.photos/200?random=3" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h3 class="card-title">Postres</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Fin Sección de Menú -->
-    
-     <!-- Footer -->
-    <footer class="footer">
-      <p>©2022 Euro Café.Todos los derechos reservados.</p>
-    </footer>
-    <!-- Fin de Footer -->
-
-    <script src="./js/app.js"></script>
+</section>
+  <!-- Fin de la Sección Generalidades -->
+       <!-- Footer -->
+       <footer class="footer">
+        <p>©2022 Euro Café.Todos los derechos reservados.</p>
+      </footer>
+      <!-- Fin de Footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+.generalidad h2{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.card{
+    border:none;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-body{
+    height: 220px;
+}

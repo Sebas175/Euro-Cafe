@@ -5,7 +5,10 @@ h2{
 
 .Menu{
     margin: 0px 30px;
-    margin-bottom: 6%;
+}
+
+.card{
+    border: 0;
 }
 
 .card img{
