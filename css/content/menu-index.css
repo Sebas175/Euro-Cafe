@@ -11,10 +11,15 @@ h2{
     border: 0;
 }
 
-.card img{
+.card a img{
     height: 250px;
+}
+
+.card-body a{
+text-decoration: none;
 }
 
 h3{
     text-align: center;
+    color: #000;
 }
