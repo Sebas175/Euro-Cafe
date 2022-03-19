@@ -6,9 +6,16 @@
 .card{
     border:none;
 }
+.card img{
+    height: 250px;
+}
 
 .card-title{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+}
+
+.card-body{
+    height: 115px;
 }
